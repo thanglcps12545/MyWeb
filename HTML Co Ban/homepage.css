@@ -1,0 +1,317 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.bocuc{
+    max-width: 1260px;
+    margin: 0 auto ;
+}
+div header{
+    background-image: url('images2/anhbia.png');  
+    background-size: 100% 100%;
+    height:0px;
+    padding-bottom: 30%;  
+    color:white; 
+    background-image: url('images/ngoisao2.png');
+}
+header img{
+ padding:20px 20px ;
+}
+button {
+    border: 2px solid white;
+    height: 50px;
+    font-size: 20px;
+    background-color: black;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+button a:hover{
+    color: yellow;
+}
+
+.hinhanh input{
+    float: right;
+   height: 10px;
+   padding: 14px;
+   margin: 14px;
+}
+.bocuc nav{
+    min-height: 70px;
+    width: 100%;
+    float: left;
+    background-image: url('images/anhbocuc.jpg');
+}
+.bocuc aside{
+    min-height: 1000px;
+    width: 100%;
+    background-color:red;
+    float: left;
+    background-image: url('images/ngoisao.jpg');
+    
+}
+.bocuc article{
+    min-height: 500px;
+    width: 100%;
+    background-color:yellow;
+    float: left;
+    background-image: url('images/homepage.png');
+    
+}
+.bocuc nav a{
+    color: white;
+    text-decoration: none;
+    margin:  0px;
+}
+.bocuc nav a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+.menu{
+    margin:4px;
+    padding: 10px;
+    border-radius: 5px;
+    list-style: none;
+    height: 40px;
+    font-size: 40px;
+    
+}
+ul.menu>li>a{
+    display:block;
+    line-height: 40px;
+    text-decoration: none;
+    padding-left: 25px;
+    color: white;
+}
+ul.menu>li>a:hover{
+    color:#F6Ea41;
+    font-weight:bolder;
+}
+ul.menu>li{
+    float: left;
+    margin:0 5px;
+    position: relative;
+}
+ul.menu>li:hover>.vmenu{
+    display: block;
+}
+.vmenu{
+    margin:2px;
+    padding:0px;
+    border-radius: 10x;
+    list-style: none;
+    width: 300px;
+    position: absolute;
+    display: none;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+.vmenu>li>a{
+    display: block;
+    line-height: 50px;
+    border-bottom: 1px dotted red;
+    text-decoration: none;
+    font-variant: normal;
+    padding-left: 10px;
+    background: url('/images/homepage.png') no-repeat left center ;
+    color: orangered;
+    border: 1px solid black;
+    background-color:black ;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 30px;
+}
+.vmenu>li>a:hover{
+    background: url('images/anhgif.gif')no-repeat left center; 
+    background-color:orangered;
+    color: yellow;
+    font-weight: bolder;
+    background-image: url('images/icon.png');
+}
+
+
+iframe{
+    padding: 50px 50px 40px 30px;
+}
+
+
+div.box{
+    width: 400px;
+    height: 420px;
+    padding: 0x;
+    margin: 20px;
+    border: 2px solid red;
+    border-radius: 7px;
+    box-shadow: 4px 4px 2px blueviolet;
+    background-color: blue;
+    background-size:100% 100% ;
+    margin-top: 10px;
+    background-image: url('images/banner.png');
+
+}
+div.box img {
+    height: 396px;
+    width: 396px;  
+    
+}
+div.box button{
+    padding: 0px;
+    margin-top: 300px;
+    margin-left: 70px;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black; 
+}
+div.box button a{
+  color: black;
+}
+div.box button:hover{
+    background-color: yellow;
+}
+div.khung1{
+    width: 620px;   
+    height: 190px;
+    border: 1px solid black;
+    margin-top:18px ;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+div.box2 img {
+    height: 110px;
+    width: 150px;
+    margin-right: 250px;
+    margin-top: 8px;
+    float: left;
+    
+}  
+
+div.box2{
+    width: 520px;
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: 2px solid red;
+    border-radius: 7px;
+    box-shadow: 4px 4px 2px blueviolet;
+    background-color: blue;
+    background-size:100% 100% ;
+    background-image: url('images/ngoisao.jpg');
+}
+div.box2:hover{
+    background-image: url('images/anhbocuc.jpg');
+}
+div.box3 img {
+    height: 110px;
+    width: 150px;
+    margin-right: 250px;
+    margin-top: -810px;
+    float: left;
+    
+}  
+    
+div.box3{
+    width: 520px;
+    height: 130px;
+    padding: 500x;
+    margin-left: 700px;
+    margin-top: -950px;
+    border: 2px solid red;
+    border-radius: 7px;
+    box-shadow: 4px 4px 2px blueviolet;
+    background-size:100% 100% ;
+    background-image: url('images/ngoisao.jpg');
+    float: center;
+}
+div.box3:hover{
+    background-image: url('images/anhbocuc.jpg');
+}
+h3{
+   position: absolute;
+   margin-left: 150px;
+   font-size: 20px;
+   color: white;
+}
+h5{
+    position: absolute;
+    margin-left: 140px;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+ }
+ h3:hover{
+     color: yellow;
+ }
+ h5:hover{
+     color: yellow;
+ }
+
+ div.box4 img {
+    height: 110px;
+    width: 150px;
+    margin-right: 250px;
+    margin-top: -645px;
+    float: left;
+    
+}  
+    
+div.box4{
+    width: 520px;
+    height: 130px;
+    padding: 500x;
+    margin-left: 700px;
+    margin-top: 30px;
+    border: 2px solid red;
+    border-radius: 7px;
+    box-shadow: 4px 4px 2px blueviolet;
+    background-size:100% 100% ;
+    background-image: url('images/ngoisao.jpg');
+    float: center;
+}
+div.box4:hover{
+    background-image: url('images/anhbocuc.jpg');
+}
+h3{
+   position: absolute;
+   margin-left: 150px;
+   font-size: 20px;
+   color: white;
+}
+h5{
+    position: absolute;
+    margin-left: 140px;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+ }
+ h3:hover{
+     color: yellow;
+ }
+ h5:hover{
+     color: yellow;
+ }
+
+ h4{
+    position: absolute;
+    margin-left: 100px;
+    font-size: 20px;
+    color: white;
+ }
+ h6{
+     position: absolute;
+     margin-left: 90px;
+     font-size: 16px;
+     padding: 10px;
+     color: white;
+  }
+  h4:hover{
+      color: yellow;
+  }
+  h6:hover{
+      color: yellow;
+  }
+ 
