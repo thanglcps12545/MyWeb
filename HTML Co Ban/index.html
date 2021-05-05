@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="index.css" rel="stylesheet"/>
+    <title>Assignment Final</title>
+    <style>
+      * {
+        box-sizing:border-box
+      }
+      h2 {
+        text-align: center;
+      }
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+      /* Ẩn các slider */
+      .mySlides {
+          display: none;
+      }
+      /* Định dạng nội dung Caption */
+      .text {
+        color: #f2f2f2;
+        font-size: 30px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+
+      /* định dạng các chấm chuyển đổi các slide */
+      .dot {
+        cursor:pointer;
+        height: 13px;
+        width: 13px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      /* khi được hover, active đổi màu nền */
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+
+      /* Thêm hiệu ứng khi chuyển đổi các slide */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 3s;
+        animation-name: fade;
+        animation-duration: 3s;
+      }
+
+      @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+    </style>
+    <script>
+      function hello(){
+        alert('Hello thầy.Em tên Lý Cao Thắng.Mã:PS12545.Lớp LT15303.Em nộp Assignment Final!')
+      }
+      hello();
+      </script>
+    </head>
+<body>
+  <div class="bocuc">
+<header>
+  <div class="hinhanh">
+    <input type="text" maxlength="120" placeholder="Search" />
+  </div>
+  <img src="images/iconfb.png" width="70px" >
+  <img src="images/iconig.png" width="70px" >
+  <img src="images/icont.png" width="70px" >
+  <img src="images/iconytb.png" width="70px">
+  <center><audio src="media/Em-Oi-Len-Pho-Minh-Vuong-M4U.mp3" controls loop autoplay></audio></center>
+    <center><img src="images/header1.png"/></center>
+    <center><button><a href="dangnhap.html">LOG IN</button></a></center> 
+</header>
+<nav>
+  <ul class="menu">
+    <li> <a href="1"><img src="images/icon.png" width="50px" height="30px">HOME PAGE</a>
+      <ul class="vmenu">
+        <li><a href="homepage.html">Event 1</a></li> 
+        <li><a href="homepage.html">Event 2</a></li>
+        <li><a href="homepage.html">Event 3</a></li>
+        <li><a href="homepage.html">Event 4</a></li>
+        <li><a href="homepage.html">Event 5</a></li>
+      </ul>
+    </li>
+
+    <li> <a href="1"><img src="images/chienbinh.png" width="50px" height="30px">VIDEO</a>
+      <ul class="vmenu">
+        <li><a href="https://www.youtube.com/embed/l77BI2VhmzA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Video 1</a></li> 
+        <li><a href="https://www.youtube.com/embed/c9lMKycALWs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Video 2</a></li>
+        <li><a href="https://www.youtube.com/embed/1eKThHkYFJw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Video 3</a></li>
+        <li><a href="https://www.youtube.com/embed/RAAP4bs1rew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Video 4</a></li>
+        <li><a href="https://www.youtube.com/embed/QPVwts6TZXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Video 5</a></li>
+      </ul>
+    </li>
+
+    <li> <a href="1"><img src="images/icon2.png" width="30px" height="30px">FILMS</a>
+      <ul class="vmenu">
+        <li><a href="https://www.starwars.com/films">FILMS STAR WARS</a></li> 
+      </ul>
+    </li>
+
+    <li> <a href="1"><img src="images/icon3.png" width="30px" height="30px">SERIES</a>
+      <ul class="vmenu">
+        <li><a href="series.html">Series Star Wars</a></li> 
+      </ul>
+    </li>
+
+    <li> <a href="1"><img src="images/icon4.png" width="30px" height="30px">DATABANK</a>
+      <ul class="vmenu">
+        <li><a href="databank.html">Databank Star Wars </a></li> 
+      </ul>
+    </li>
+  </ul>
+</nav>
+<aside>
+  <center><button class="t7"> <a href="cantact.html"> Bản đồ </a></button></center>
+  <div class="khung1"> 
+    <div class="box"><button><a href="https://www.youtube.com/embed/8Qn_spdM5Zg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>TRAILER</button></a>
+      <button><a href="https://www.youtube.com/embed/xgNo0mb9bIA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>EXPLORE</button></a>  
+      
+    </div> 
+
+</div>
+<div class="box2">
+  <img src="images/box1.jpg"/>
+  <h3>
+    WHAT IS THE DARKSABER?<br>
+    <br>
+  </h3><br>
+  <h5>
+    <br>The legendary blade has been wielded by heroes and<br> villains alike.
+     
+  </h5>
+  </div> 
+  <div class="box3">
+<img src="images/box3.jpg"/>
+<h3>
+  THE MANDALORIAN AND THE CHILD<br> COMING TO DISNEY EMOJI BLITZ<br> 
+  <br>
+</h3><br>
+<h5>
+  <br>The legendary blade has been wielded by heroes and<br> villains alike.<br> 
+   
+</h5>
+   
+</div>
+  <div class="box3">
+
+    <img src="images/box2.jpg"/>
+    <h3>
+      UPDATED: NEW YORK TOY FAIR 2020<br> STAR
+       WARS PRODUCT REVEALS<br>
+    </h3><br>
+    <h5>
+      <br>Check out a short preview video, along with new<br> images
+       featuring Ahsoka Tano and more!
+    </h5>
+  </div> 
+  
+
+</aside>
+<article>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="images/starwars3.png" width="700" height="500" style="width:100%" >
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/starwars2.png" width="700" height="500" style="width:100%">
+      <div class="text"><h1>RUN!</h1></div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/starwars.png" width="700" height="500px" style="width:100%">
+      <div class="text">CUỘC CHIẾN CUỐI CÙNG!</div>
+    </div>
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(0)"></span> 
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+  </div>  
+</article>
+<main>
+<img src="images/main.png" width="1000"/>
+<div class="ggg">
+</div>
+<div class="gggg">
+</div>
+<div class="ggggg">
+</div>
+<div class="gggggg">
+</div>
+<div class="ggggggg">
+</div>
+<div class="thang">
+  
+</div>
+</main>
+
+
+<article2>
+  <div class="video-container">
+    <iframe width="100"
+     height="445" 
+     src="https://www.youtube.com/embed/VcGnT9f4_-w"
+      frameborder="0" 
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+  </article2>
+<footer>
+  <img src="images/footer.png" width="1260" height="400" />
+  <div class="thangg" ><h2> &copy;Bản quyền thuộc Lý Cao Thắng <br>
+    Wed game hàng đầu VN phân phối tại TPHCM<br>
+    Thiết kế bởi: Lý Cao Thắng, Email:thanglcps12545@fpt.edu.vn, MSSV:PS12545 <h2> 
+      <img src="images/iconfb.png" />
+      <img src="images/iconig.png" />
+      <img src="images/icont.png" />
+     </div>
+</footer>
+<script src="https://uhchat.net/code.php?f=0aca66"></script>
+  </div>
+  </body>
+  <script>
+    //khai báo biến slideIndex đại diện cho slide hiện tại
+    var slideIndex;
+    // KHai bào hàm hiển thị slide
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+
+        slides[slideIndex].style.display = "block";  
+        dots[slideIndex].className += " active";
+        //chuyển đến slide tiếp theo
+        slideIndex++;
+        //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+        if (slideIndex > slides.length - 1) {
+          slideIndex = 0
+        }    
+        //tự động chuyển đổi slide sau 5s
+        setTimeout(showSlides, 5000);
+    }
+    //mặc định hiển thị slide đầu tiên 
+    showSlides(slideIndex = 0);
+
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+  </script>
+</html>    
